@@ -3,8 +3,8 @@ version: 0.2
 env:
   variables:
     key: "nonsecuretest"
-  parameter-store:
-    securekeytest: "securetest"
+#  parameter-store:
+#    securekeytest: "securetest"
 
 phases:
   install:
