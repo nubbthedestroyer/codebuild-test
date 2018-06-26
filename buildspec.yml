@@ -22,6 +22,9 @@ phases:
   post_build:
     commands:
       - echo "post_build running..."
+      - timestamp=$(date +%s)
+      - zip artifact-${timestamp}.zip index.html
+      - s3 cp artifact-${timestamp}.zip s3://${DEPLOY_BUCKET}/${DEPLOY_BUCKET_KEY}/artifact-${timestamp}.zip
       - echo "post_build worked!!!"
 artifacts:
   files:
