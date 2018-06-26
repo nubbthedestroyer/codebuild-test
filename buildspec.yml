@@ -7,22 +7,22 @@ env:
 #    securekeytest: "securetest"
 
 phases:
-  install:
-    commands:
+#  install:
+#    commands:
 #      - yum install htop
-      - echo "install worked!!!"
-  pre_build:
-    commands:
-      - echo "pre_build running..."
-      - echo "pre_build worked!!!"
-  build:
-    commands:
-      - echo "build running..."
-      - echo "build worked!!!"
-  post_build:
-    commands:
-      - echo "post_build running..."
-      - echo "post_build worked!!!"
+#      - echo "install worked!!!"
+#  pre_build:
+#    commands:
+#      - echo "pre_build running..."
+#      - echo "pre_build worked!!!"
+#  build:
+#    commands:
+#      - echo "build running..."
+#      - echo "build worked!!!"
+#  post_build:
+#    commands:
+#      - echo "post_build running..."
+#      - echo "post_build worked!!!"
 artifacts:
   files:
     - index.html
