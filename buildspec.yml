@@ -9,8 +9,8 @@ env:
 phases:
   install:
     commands:
-      - yum install htop
-#      - echo "install worked!!!"
+#      - yum install htop
+      - echo "install worked!!!"
 #  pre_build:
 #    commands:
 #      - echo "pre_build running..."
