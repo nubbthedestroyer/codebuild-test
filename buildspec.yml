@@ -7,9 +7,9 @@ env:
 #    securekeytest: "securetest"
 
 phases:
-#  install:
-#    commands:
-#      - yum install htop
+  install:
+    commands:
+      - yum install htop
 #      - echo "install worked!!!"
 #  pre_build:
 #    commands:
